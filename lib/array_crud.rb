@@ -1,5 +1,5 @@
 def create_an_empty_array
-  p []
+  []
 end
 
 def create_an_array
@@ -11,15 +11,15 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  p array.unshift(element)
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-  p array.pop
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  p array.shift
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
